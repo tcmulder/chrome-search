@@ -98,9 +98,6 @@ var sHighlight = function(){
         $('#sCur').fadeOut(500);
     }
 }();
-
-/*///////////////////////////////////////////////////////////////// Clickable Search
-Clickable Search */
 var clickable = function() {
     var i = 0;
     $(document).on('sUpdate', function(){
