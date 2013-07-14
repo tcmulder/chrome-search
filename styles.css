@@ -1,0 +1,47 @@
+.highlight,
+.focusable {
+  background-color: rgba(252, 252, 79, .8);
+	box-shadow: 0 0 .5em rgba(252, 252, 179, .8),0 0 .5em rgba(252, 252, 179, .8);
+	border-radius: .2em;
+	color: #000;
+	transition: all .5s;
+}
+.focusable:link,
+.focusable:visited,
+.focusable:hover,
+.focusable:active,
+.focusable:focus {
+	background-color: rgba(40, 135, 162, .8);
+	color: rgb(254, 253, 223);
+	box-shadow: 0 0 .5em rgba(40, 135, 162, .3), 0 0 .2em rgba(252, 252, 179, .3) inset;
+}
+.focusable:focus {
+	background-color: rgb(189, 5, 5);
+	box-shadow: 0 0 .5em rgba(189, 0, 0, .3), 0 0 .5em rgb(255, 0, 0) inset;
+	color: rgb(254, 253, 223);
+	transition: all .2s;
+}
+#sPrint {
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	right: 0;
+	font-size: .9em;
+	background-color: rgba(0,0,0,.3);
+	text-indent: .5em;
+	line-height: 1.5em;
+	text-transform: lowercase;
+	font-family: monospace;
+	letter-spacing: .1em;
+	color: #fff;
+	border-bottom-left-radius: .2em;
+	box-shadow: 0 0 .5em rgba(255,255,255,.3);
+	text-shadow: -1px -1px 0px rgba(0,0,0,.3);
+}
+#sCur {
+	position: fixed;
+	z-index: 9999;
+	top: -99px;
+	height: .1em;
+	background-color: #BB4006;
+}
