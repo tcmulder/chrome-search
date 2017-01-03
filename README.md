@@ -10,7 +10,6 @@ This is a simple Chrome extension for searching and search-navigating.
 4. Click the "load umpacked extention..." button.
 5. Navigate to the directory you created earlier and select it.
 6. Should be ready to go.
-7. 
 
 # To use the extention
 You can simply start typing and Chrome will search for the characters you type. To cycle through results, you can press shift+x to move forward or shift+z to move backward.
